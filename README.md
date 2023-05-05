@@ -2,8 +2,8 @@
 ## Profil
 | #               | Biodata           |
 | --------------- | ----------------- |
-| **Nama**        | Bilal AlHafidz    |
-| **NIM**         | 312110397         |
+| **Nama**        | Alwan Luthfi      |
+| **NIM**         | 312110296         |
 | **Kelas**       | TI.21.A.1         |
 | **Mata Kuliah** | Pemrograman Web 2 |
 
@@ -13,8 +13,6 @@
 ```sql
 CREATE DATABASE latihan1;
 ```
-
-2. Kemudian buat `Table` dengan cara klik menu `SQL` lagi, kemudian masukan perintah berikut.
 
 ```sql
 USE latihan1;
@@ -40,8 +38,7 @@ INSERT INTO `data_barang` (`id_barang`, `nama_barang`, `kategori_barang`, `gamba
 ![Data Barang](img/ss3.png)
 
 ## Membuat Program CRUD
-1. Buat folder Lab3Web pada root directory Web server (C:\xampp\htdocs)
-2. Kemudian buat file baru dengan nama `koneksi.php`, Lalu masukan kode berikut.
+1. Buat folder Lab3Web pada root directory Web server (C:\xampp\htdocs),Kemudian buat file baru dengan nama `koneksi.php`, Lalu masukan kode berikut.
 
 ```php
 <?php
@@ -55,7 +52,7 @@ if ($koneksi == false) {
 // var_dump($koneksi);
 ```
 
-3. Jika gambarnya seperti ini maka berhasil koneksi ke database. Untuk menyampilkan pesan koneksi berhasil,
+2. Jika gambarnya seperti ini maka berhasil koneksi ke database. Untuk menyampilkan pesan koneksi berhasil,
 uncomment pada perintah var_dump($koneksi);
 
 ![Koneksi](img/ss7.png)
